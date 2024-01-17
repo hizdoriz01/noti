@@ -1,0 +1,23 @@
+{
+  "name": "hello",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {
+    "test": "node ./node_modules/mocha/bin/mocha --timeout=30000 ./tests",
+    "start": "node ./src/app.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@microsoft/teams-js": "^2.15.0",
+    "axios": "^1.6.0",
+    "chai": "^4.3.6",
+    "chromedriver": "^2.43.3",
+    "date-fns": "^2.30.0",
+    "exceljs": "^4.3.0",
+    "mocha": "^10.0.0",
+    "puppeteer": "^15.4.0",
+    "sound-play": "^1.1.0"
+  }
+}
